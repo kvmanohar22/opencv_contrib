@@ -1,0 +1,2 @@
+# SqueezeNet architecture for image classification on ImageNet dataset 
+name: "SqueezeNet"
