@@ -1,1 +1,14 @@
-# Training and Testing protocol for Image Classification
+# Solver for SqueezeNet Model 
+test_iter: 1000
+test_interval: 1000
+base_lr: 0.03
+display: 1
+max_iter: 1360000
+lr_policy: "poly"
+power: 1.0
+momentum: 0.9
+weight_decay: 0.0002
+snapshot: 10000
+snapshot_prefix: "../logger/snapshots/train"
+solver_mode: GPU
+net: "/users/TeamVideoSummarization/gsoc/opencv_contrib/modules/dnn_objdetect/proto/SqueezeNet_train.prototxt" 
