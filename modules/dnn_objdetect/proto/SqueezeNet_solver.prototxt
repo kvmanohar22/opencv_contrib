@@ -8,7 +8,7 @@ lr_policy: "poly"
 power: 1.0
 momentum: 0.9
 weight_decay: 0.0002
-snapshot: 10000
+snapshot: 20000
 snapshot_prefix: "../logger/snapshots/train"
 solver_mode: GPU
 net: "/users/TeamVideoSummarization/gsoc/opencv_contrib/modules/dnn_objdetect/proto/SqueezeNet_train.prototxt" 
